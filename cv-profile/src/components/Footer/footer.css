@@ -1,0 +1,18 @@
+.copy {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.Tcopy {
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+  text-align: center;
+  color: rgb(231, 199, 19);
+}
+
+@media only screen and (max-width: 992px) {
+  .copy {
+    min-width: unset;
+  }
+}
