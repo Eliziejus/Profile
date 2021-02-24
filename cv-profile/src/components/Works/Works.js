@@ -1,7 +1,8 @@
 import React from 'react';
-import './work.css'
-import Bootstrap from '../../Images/Bootstrap.png'
-import Country from '../../Images/Country_Flags.png'
+import './work.css';
+import Bootstrap from '../../Images/Bootstrap.png';
+import Country from '../../Images/Country_Flags.png';
+import QA from '../../Images/SOS.png';
 
 const Work = () => {
     
@@ -21,6 +22,8 @@ const Work = () => {
                     
                 </div>
             </div>
+            
+
             <div className="box">
                 <div className="imageBox">
                     <img className="images" src={Country} alt=""></img>
@@ -30,8 +33,18 @@ const Work = () => {
                         <a className="aLink" href="https://flags-green.vercel.app/" target="_blank" rel="noreferrer" ><h2>Live Demo</h2></a>
                         <a className="aLink " href="https://github.com/Eliziejus/flags" target="_blank" rel="noreferrer" ><h2>Project code</h2></a>
 
-                            
                     </div>
+                    
+                </div>
+            </div>
+            <div className="box">
+                <div className="imageBox">
+                    <img className="images" src={QA} alt=""></img>
+                    <div className="overlay">
+                        <h1 className="txt" >Question & Answers</h1>
+                        <h3 className="txt">Wordpress/CSS3</h3>
+                        <a className="aLink" href="https://qa.emob.lt/" target="_blank" rel="noreferrer" ><h2>Live Demo</h2></a>
+            </div>
                     
                 </div>
             </div>   
