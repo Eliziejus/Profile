@@ -73,7 +73,10 @@ function About() {
                 <h4 style={margin}>Back-End</h4>
                 <div className="front2">
                 <li className="listAbout">C++: {<Skill level="65"/>} </li>
-                <li className="listAbout">Java: {<Skill level="15"/>} </li>
+                        <li className="listAbout">Java: {<Skill level="15" />} </li>
+                        <li className="listAbout">PHP: {<Skill level="40" />} </li>
+                        <li className="listAbout">MySQL: {<Skill level="65" />} </li>
+                        <li className="listAbout">Selenium: {<Skill level="35" />} </li>
                 </div>
             </div>
         </div>
